@@ -1,0 +1,544 @@
+html, body
+{
+	height: 100%;
+	background-color: black;
+}
+
+.header_room
+{
+	height: 420px;
+}
+
+.header_room .header_texture
+{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: url(https://static.mycity.travel/manage/uploads/7/37/52378/872c28cf5703d2952b13a8bc1da73d5dc27f541a_1080.jpg) center  no-repeat;
+	background-size: cover;
+	opacity: 1;	
+
+}
+
+.header_room .header_textures
+{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: url(http://prisonbreak.si/wp-content/uploads/2016/03/Prison-Break-Slovenija-escape-room.jpg) center  no-repeat;
+	background-size: cover;
+	opacity: 1;	
+
+}
+
+.header_room .header_texturess
+{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: url(https://camilleg.fr/wp-content/uploads/2017/11/lost_asylum.jpg) center  no-repeat;
+	background-size: cover;
+	opacity: 1;	
+
+}
+
+
+
+.room_view_container
+{
+	width: 60%;
+	margin: auto;
+	margin-top: 100px;
+
+}
+
+.room_view_title
+{
+	color: #fff;
+	font-family: 'Anton', sans-serif;
+	font-size: 23px;
+	letter-spacing: 0.5px;
+	border-bottom: 5px solid #B71C1C;
+	font-weight: 100;
+}
+
+.room_view_content
+{
+	color: white;
+	text-align: justify;
+	font-family: 'Anton', sans-serif;
+	font-weight: 200;
+	font-size: 16px;
+	line-height: 23px;
+	
+
+
+}
+
+
+.colonne
+{
+	display: inline-block;
+	text-align: center;
+	padding-left: 90px;
+	padding-right: 90px;
+}
+
+.container_logo
+{
+	font-size: 35px;
+	color: #B71C1C;
+	
+}
+.title
+{
+	color: white;
+	font-family: 'Anton', sans-serif;
+	padding-top: 10px;
+	font-size: 18px;
+	justify-content: space-between;
+}
+
+.barre_de_difficulté_1
+{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	height: 8px;
+	width: 200px;
+	background-color: #fff;
+	margin-top: 20px;
+	margin-left: 50px;
+	border-radius: 15px;
+
+}
+
+.barre_de_difficulté_1 div
+{
+	width: 60%;
+	height: 100%;
+	border-radius: 15px;
+	background-color: #B71C1C;
+}
+
+.barre_de_difficulté_2
+{
+	position: absolute;
+	transform: translate(-15%, -50%);
+	height: 8px;
+	width: 200px;
+	margin-top: 20px;
+	margin-right: 0px;
+	background-color: #fff;
+	border-radius: 15px;
+
+}
+
+.barre_de_difficulté_2 div
+{
+	width: 20%;
+	height: 100%;
+	border-radius: 15px;
+	background-color: #B71C1C;
+}
+
+.barre_de_difficulté_3
+{
+	position: absolute;
+	transform: translate(-20%, -50%);
+	height: 8px;
+	width: 200px;
+	margin-top: 20px;
+	margin-right: 0px;
+	background-color: #fff;
+	border-radius: 15px;
+
+}
+
+.barre_de_difficulté_3 div
+{
+	width: 35%;
+	height: 100%;
+	border-radius: 15px;
+	background-color: #B71C1C;
+}
+.barre_de_difficulté_1_PA
+{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	height: 8px;
+	width: 200px;
+	background-color: #fff;
+	margin-top: 20px;
+	margin-left: 50px;
+	border-radius: 15px;
+
+}
+
+.barre_de_difficulté_1_PA div
+{
+	width: 40%;
+	height: 100%;
+	border-radius: 15px;
+	background-color: #B71C1C;
+}
+
+.barre_de_difficulté_2_PA
+{
+	position: absolute;
+	transform: translate(-15%, -50%);
+	height: 8px;
+	width: 200px;
+	margin-top: 20px;
+	margin-right: 0px;
+	background-color: #fff;
+	border-radius: 15px;
+
+}
+
+.barre_de_difficulté_2_PA div
+{
+	width: 20%;
+	height: 100%;
+	border-radius: 15px;
+	background-color: #B71C1C;
+}
+
+.barre_de_difficulté_3_PA
+{
+	position: absolute;
+	transform: translate(-20%, -50%);
+	height: 8px;
+	width: 200px;
+	margin-top: 20px;
+	margin-right: 0px;
+	background-color: #fff;
+	border-radius: 15px;
+
+}
+
+.barre_de_difficulté_3_PA div
+{
+	width: 40%;
+	height: 100%;
+	border-radius: 15px;
+	background-color: #B71C1C;
+}
+
+.barre_de_difficulté_1_LO
+{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	height: 8px;
+	width: 200px;
+	background-color: #fff;
+	margin-top: 20px;
+	margin-left: 50px;
+	border-radius: 15px;
+
+}
+
+.barre_de_difficulté_1_LO div
+{
+	width: 10%;
+	height: 100%;
+	border-radius: 15px;
+	background-color: #B71C1C;
+}
+
+.barre_de_difficulté_2_LO
+{
+	position: absolute;
+	transform: translate(-15%, -50%);
+	height: 8px;
+	width: 200px;
+	margin-top: 20px;
+	margin-right: 0px;
+	background-color: #fff;
+	border-radius: 15px;
+
+}
+
+.barre_de_difficulté_2_LO div
+{
+	width: 50%;
+	height: 100%;
+	border-radius: 15px;
+	background-color: #B71C1C;
+}
+
+.barre_de_difficulté_3_LO
+{
+	position: absolute;
+	transform: translate(-20%, -50%);
+	height: 8px;
+	width: 200px;
+	margin-top: 20px;
+	margin-right: 0px;
+	background-color: #fff;
+	border-radius: 15px;
+
+}
+
+.barre_de_difficulté_3_LO div
+{
+	width: 40%;
+	height: 100%;
+	border-radius: 15px;
+	background-color: #B71C1C;
+}
+
+
+
+.slider_photo
+{
+	padding-top: 60px;
+	width: 800px;
+	overflow: hidden;
+	position: absolute;
+	margin-left: 50px;
+	border-radius: 175px;
+}
+
+
+
+.slides
+{
+	width: calc(800px * 3);
+	animation: glisse 17s infinite;
+}
+
+
+.slide
+{
+	float: left;
+}
+
+
+
+
+@keyframes glisse
+{
+	0% {
+		transform: translateX(0);
+	}
+	15% {
+		transform: translateX(0);
+	}
+
+	33% {
+		transform: translateX(-800px);
+	}
+	48% {
+		transform: translateX(-800px);
+	}
+
+	66% {
+		transform: translateX(-1600px);
+	}
+	81% {
+		transform: translateX(-1600px);
+	}
+	
+	100% {
+		transform: translateX(0);
+	}
+
+
+}
+
+
+.cote_logo_1
+{
+	color:#B71C1C;
+	position: absolute;
+	margin-top: 20%;
+	margin-left : -18%;
+	font-size: 120px;
+	z-index: 1;
+	text-align: center;
+	
+}
+
+.m60
+{
+	text-align: center;
+	font-family: 'Anton', sans-serif;
+	color: white;
+	font-size: 65px;
+
+}
+
+
+.fas fa-stopwatch
+{
+	animation: clock 15s infinite;
+}
+
+@keyframes clock
+{
+	0% {
+		transform: scale(1);
+	}
+	25% {
+		transform: scale(1.5);
+	}
+	50% {
+		transform: scale(1);
+	}
+	75% {
+		transform: scale(1.5);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+
+
+
+
+.footer_logo ul li 
+{
+	display: inline-block;
+	color: black;
+	padding-left: 5px;
+	
+	
+}
+
+.footer_logo 
+{
+	position: relative;
+	top: 50%;
+}
+
+
+.copyrightt
+{
+	font-family: 'Anton', sans-serif;
+	font-size: 18px;
+	word-spacing: 1px;
+	
+}
+
+
+
+
+.footer
+{
+	background-color: #B71C1C;
+	width: 100%;
+	height: 200px;
+	position: absolute;
+	margin-top: 62%;
+	left: 0;
+	padding-bottom: 70px;
+
+	
+}
+
+
+.colonne_footer
+{
+	display: inline-block;
+
+}
+
+.container_footer
+{
+	text-align: center;
+}
+
+.titre_colonne
+{
+	font-family: 'Anton', sans-serif;
+	color: white;
+	text-align: center;
+	letter-spacing: 0.5px;
+	font-size: 27px;
+	
+
+}
+
+.infos
+{
+	text-align: center;
+	font-family: 'Anton', sans-serif;
+	color: black;
+	font-size: 18px;
+
+	
+
+}
+
+.infos a
+{
+	text-decoration: none;
+	color: black;
+	font-style: italic;
+}
+
+.infos a:hover
+{
+	color: white;
+	transition: 0.1s all;
+}
+
+
+
+
+.cote_logo_2
+{
+	color:#B71C1C;
+	position: absolute;
+	margin-left: 65%;
+	margin-top: 20%;
+	font-size: 120px;
+	z-index: 1;
+	text-align: center;
+	
+}
+
+
+.percent
+{
+	text-align: center;
+	font-family: 'Anton', sans-serif;
+	color: white;
+	font-size: 65px;
+
+}
+
+
+.tarifs
+{
+	color: white;
+	position: relative;
+	margin-top: 80%;
+	padding-left: 20px;
+	font-size: 25px;
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+	border-bottom: 5px solid #B71C1C;
+	letter-spacing: 0.5px;
+
+}
+
+#users
+{
+	color: #B71C1C;
+}
+
+
+
+
+
+
+
+

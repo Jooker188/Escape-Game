@@ -1,0 +1,73 @@
+
+
+
+
+
+.container_pour_chargement .bar{
+	font-size: 20px;
+	width: 250px;
+	height: 25px;
+	border: 3px solid white;
+	margin: 100px auto;
+	border-radius: 10px;
+	position: relative;
+	background: #B71C1C;
+	margin-top: 350px;
+
+}
+
+
+/* RAJOUT DU PETIT TEXTE EXPLICATIF "Loading...*/
+.container_pour_chargement .bar:after{
+	content: "Chargement...";
+	font-size: 28px;
+	position: absolute;
+	left: 50px;
+	top: 150%;
+	color: white;
+	font-family: 'Anton', sans-serif;
+	justify-content: center;
+
+}
+
+
+/* STYLISATION DE NOTRE FAMEUSE SPHERE (BOULE lol) */
+.container_pour_chargement .bar .sphere{
+	display: block;
+	width: 24px;
+	height: 100%;
+	background: white;
+	border-radius: 50%;
+	-moz-animation: slide 1s infinite ease-in-out alternate;
+	-webkit-animation: slide 1s infinite ease-in-out alternate;
+	-ms-animation: slide 1s infinite ease-in-out alternate;
+	-o-animation: slide 1s infinite ease-in-out alternate;
+	animation: slide 1s infinite ease-in-out alternate;
+}
+
+
+/* Utilisation des keyframes pour la gestion de l'animation */
+@-moz-keyframes slide{
+	to { margin-left: 90%; }
+}
+
+@-webkit-keyframes slide{
+	to { margin-left: 90%; }
+}
+
+@-ms-keyframes slide{
+	to { margin-left: 90%; }
+}
+
+@-o-keyframes slide{
+	to { margin-left: 90%; }
+}
+
+@keyframes slide{
+	to { margin-left: 90%; }
+}
+
+.tout_le_contenu_du_site
+{
+	display: none;
+}
